@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ecf0f1;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.App {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+.controller {
+	width: 40vh;
+}
+.controller label,
+.controller input {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 25px;
+}
+.output {
+	width: 40vh;
+}
+.output .box {
+	width: 450px;
+	height: 450px;
+	background-color: #f1c40f;
+}
+.box .textShadow {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px;
+}
+.switch {
+	margin-top: 10px;
+}

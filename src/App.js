@@ -1,11 +1,11 @@
 import React from "react";
-
 import "./App.css";
+import BoxShadow from "./BoxShadow";
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello</h1>
+			<BoxShadow />
 		</div>
 	);
 }
